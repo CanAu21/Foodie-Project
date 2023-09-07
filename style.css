@@ -1,0 +1,113 @@
+
+/*Variables*/
+:root {
+    --primary-color: #a82c48;
+    --secondry-color: #43121d;
+    --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: "Roboto", sans-serif;
+    --secondry-font: "Quicksand", sans-serif;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  a:hover{
+    color: var(--primary-color) !important;
+  }
+
+  h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    color: var(--secondry-color);
+  }
+
+  h2{
+    color: var(--secondry-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  h2 p{
+    color:var(--white-color) ;
+  }
+
+  p{
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .navbar-nav a{
+    color: var(--black-color);
+    font-size: 1.4rem;
+  }
+
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+  /*BANNER*/
+  #home{
+    margin-top: 20px !important;
+  }
+
+  .top-banner{
+    width: 100%;
+    background: url(images/bg/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 17rem 0 10rem;
+    margin-top: 180px !important;
+  }
+
+  /*COUNTER*/
+  .counter-section{
+    background-color: var(--primary-color);
+  }
+
+  .counter-div h2{
+    color: var(--white-color);
+  }
+
+  /*ABOUT*/
+  .wrapper{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  /*FOOTER*/
+  #footer{
+    background-color: var(--primary-color);
+  }
+
+  #footer .footer-links a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  #footer a{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    text-decoration: none;
+  }
+
+  .footer a:hover{
+    color: var(--text-color) !important;
+    transition: all ease .3s;
+  }
+
+  .footer a i:hover{
+    transform: translateY(-10px);
+  }
